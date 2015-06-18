@@ -9,8 +9,9 @@ dependencies:
   analysis_server:
     git:
       url: git://github.com/lukechurch/dart-analysis-server-temp-working.git
-      ref: v1-11-0
-  analyzer: '>=0.25.1-alpha.1 <0.26.0'
+  analyzer:
+    git: 
+      url: git://github.com/lukechurch/dart-analyzer-temp-working.git
   appengine: '>=0.3.0 <0.4.0'
   archive: '>=1.0.19 <1.1.0'
   args: '>=0.12.0 <0.14.0'
